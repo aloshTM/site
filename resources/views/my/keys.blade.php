@@ -16,7 +16,7 @@
     @endif
 
     <div class="d-flex justify-content-between">
-        <h1 class="mb-0">{{ __('Invite Keys') }}</h1>
+        <h1 class="mb-0 font-weight-bold">{{ __('Invite Keys') }}</h1>
         @if (config('app.users_create_invite_keys'))
         <div class="d-flex align-items-center">
             <button data-toggle="modal" data-target="#keyPurchaseModal" class="btn btn-lg btn-success shadow-sm" type="submit"><img src="/images/dahllor_white.png" width="20" height="20"> Create Key</button>

@@ -11,7 +11,7 @@
             {{ session()->get('message') }}
         </div>
     @endif
-    <h1 class="font-weight-bold">Invite Keys</h1>
+    <h1><b>Invite Keys</b></h1>
     <p>All invite keys, depleted or not. Disabling a key turns its uses to zero, it doesn't delete it for archival purposes.</p>
     @if ($invitekeys->count() > 0)
     <table class="table">
