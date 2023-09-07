@@ -218,7 +218,7 @@ class CatalogController extends Controller
 
             $user = $request->user();
 
-            if ($request['type'] == 'Face' && !$user->isStaff() || $request['type'] == 'Hat') {
+            if ($request['type'] == 'face' && !$user->isStaff() || $request['type'] == 'Hat') {
                 return abort(404);
             }
     
